@@ -6,10 +6,15 @@
 const firstName = "Anders";
 const lastName = "Latif";
 
+
 // EXERCISE
 // show in the console
 // My first name is Anders and my last name is Latif
+console.log("My first name is " + firstName + " and my las name is " + lastName);
+console.log("My first name is", firstName + " and my last name is", lastName );
 
+//backtick, String template literal, String interpolation
+console.log(`My first name is ${firstName} and my last name is ${lastName}`);
 
 // --------------------------------------
 // Exercise 2 - Numbers and Strings
@@ -21,5 +26,12 @@ const increment = 1;
 // The result should be 2026
 // You cannot touch the first or the second line
 
+const numberYear = Number(year);
+const newYear = numberYear + increment;
+console.log(newYear);
 
+const twentyTwentySix = parseInt(year) + increment;
+console.log(twentyTwentySix);
+
+console.log(parseInt(year)+increment)
 // --------------------------------------

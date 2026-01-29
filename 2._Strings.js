@@ -7,6 +7,7 @@ const numberTwo = "2.30";
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
 
+const numberThree = parseFloat(numberOne) + parseFloat(numberTwo);
 
 // --------------------------------------
 // Exercise 4 - Add the numbers and the total with 2 decimals
